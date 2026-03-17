@@ -63,8 +63,37 @@ body{
 .hide{
     display: none;
 }
-@media(max-width : 728px){
+
+@media (max-width: 728px) {
     .msg-container{
-        height: 50px;
+        height: 100vh;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    .game {
+        width: 90vmin;
+        height: 90vmin;
+        gap: 2vmin;
+    }
+
+    .box {
+        height: 28vmin;
+        width: 28vmin;
+        font-size: 10vmin;
+    }
+
+    #msg {
+        font-size: 6vw;
+        padding: 10px;
+    }
+
+    #reset-btn, #new-btn {
+        font-size: 1rem;
+        padding: 0.8rem;
     }
 }
